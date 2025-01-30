@@ -1,0 +1,4 @@
+4060dfa Amélioration du README
+b29290c Ajout de l'historique Git sous forme de fichier
+4fd40eb Ajout d'une fonctionnalité d'écriture dans data.txt
+9487c2e Initialisation du projet avec les fichiers principaux
