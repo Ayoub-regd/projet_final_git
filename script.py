@@ -9,6 +9,9 @@ try:
 except FileNotFoundError:
     print("Fichier data.txt non trouvé. on crée un fichier de base.")
 
-    with open("data.txt", "w") as file:
-        file.write(" ligne de test.\n")
-    print("Fichier data.txt créé.")
+   # test Ajout d'une fonctionnalité pour écrire dans data.txt
+    with open("data.txt", "a") as file:
+        file.write("Nouvelle ligne ajoutée avec la branche dev.\n")
+
+    print("Nouvelle ligne ajoutée dans data.txt.")
+
